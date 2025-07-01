@@ -20,7 +20,7 @@ const options = {
     "Nitin is a Software Engineer who is passionate about building solutions and contributing to open source communities",
   url: "https://victoreke.com",
   ogImage:
-    "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+    "https://res.cloudinary.com/depbypmgr/image/upload/v1751392961/Screenshot_2025-07-01_233025_t2lvfk.png",
 };
 
 export const metadata: Metadata = {
