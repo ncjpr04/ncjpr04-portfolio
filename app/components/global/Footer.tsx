@@ -75,7 +75,7 @@ export default function Footer() {
             </a> */}
 
             <small className="text-zinc-500">
-             Built by <a href="https://github.com/Evavic44" className="hover:underline font-bold italic">Victor</a> 
+             Built by <a href="https://github.com/ncjpr04" className="hover:underline font-bold italic">Nitin</a> 
             </small>
           </div>
         </div>
