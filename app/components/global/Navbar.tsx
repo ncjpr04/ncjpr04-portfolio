@@ -22,6 +22,10 @@ export default function Navbar() {
       title: "Photos",
       href: "/photos",
     },
+    {
+      title: "Contact",
+      href: "/contact",
+    },
   ];
 
   return (

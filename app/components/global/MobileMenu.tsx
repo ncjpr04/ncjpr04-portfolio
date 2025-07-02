@@ -8,6 +8,7 @@ import {
   HiCamera,
   HiOutlineX,
   HiUser,
+  HiOutlineMail,
 } from "react-icons/hi";
 import Logo from "./Logo";
 
@@ -33,6 +34,11 @@ export default function MobileMenu() {
       title: "Photos",
       href: "/photos",
       icon: HiCamera,
+    },
+    {
+      title: "Contact",
+      href: "/contact",
+      icon: HiOutlineMail,
     },
   ];
 

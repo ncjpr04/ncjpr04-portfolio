@@ -97,3 +97,5 @@ export type HeroeType = {
   url: string;
   met: boolean;
 };
+
+
