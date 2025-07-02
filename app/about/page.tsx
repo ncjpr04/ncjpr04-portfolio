@@ -78,14 +78,14 @@ export default async function About() {
                 <div className="flex flex-col text-center gap-y-4">
                   <div className="flex items-center gap-x-3">
                     <RefLink
-                      href="https://drive.google.com/file/d/1x9d8Eb4p33i8zB5HogSW_oODDlmmz4pE/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1vnCHF-lNYoUAJSSf9hkfyVSCEyh_39m6/view?usp=sharing"
                       className="flex items-center justify-center text-center gap-x-2 basis-[90%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-2 text-lg font-incognito font-semibold"
                     >
                       View Résumé <BiLinkExternal className="text-base" />
                     </RefLink>
                     <a
-                      // href={`${profile?.resumeURL}?dl=${profile?.fullName}-resume.pdf`}
-                      href="https://drive.google.com/file/d/1x9d8Eb4p33i8zB5HogSW_oODDlmmz4pE/view?usp=sharing"
+                      href={`${profile?.resumeURL}?dl=${profile?.fullName}-resume.pdf`}
+                      // href="https://drive.google.com/file/d/1vnCHF-lNYoUAJSSf9hkfyVSCEyh_39m6/view?usp=sharing"
                       className="flex items-center justify-center text-center dark:text-primary-color text-secondary-color hover:underline basis-[10%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-3 text-lg"
                       title="Download Resume"
                     >
